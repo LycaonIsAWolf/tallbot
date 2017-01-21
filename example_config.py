@@ -1,0 +1,9 @@
+server_id = "" #the ID of the server tallbot will operate on. (tallbot will answer commands on any server he is on, but will only join voice on this server)
+voice_channel_id = "" #the ID of the voice channel tallbot will join by default
+token = "" #bot token
+admins = [] #the username of the admin. will only accept dm commands about music from the admin
+music_dir = "" #the directory in the same folder as tallbot.py in which the files tallbot will have access to are stored.
+emojis = True #whether or not to append emojis to particularly good or bad rolls
+good_emojis = [":kissing_heart:", ":blush:", ":joy:", ":sunglasses:", ":hugging:", ":heart_eyes:", ":grin:", ":kissing_smiling_eyes:", ":star:", ":sparkles:"] #emojis used on a good roll
+bad_emojis = [":grimacing:", ":weary:", ":tired_face:", ":poop:", ":cold_sweat:", ":flushed:", ":rage:", ":worried:"] #emojis used on a bad roll
+greetings = ["what's up my dude", "hey how's it going", "hi", "hey", "ham-ha my dude", "what's up nerd"] #responses to hey tallbot/hi tallbot/etc
