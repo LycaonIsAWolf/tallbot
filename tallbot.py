@@ -82,9 +82,9 @@ async def on_message(message):
 					msg = ""
 
 					if dm != 0:
-						msg = "You rolled **{:d}** *({:d} + {:d})* on {:s}.".format(result[0], result[1], dm, dice)
+						msg = "{} rolled **{:d}** *({:d} + {:d})* on {:s}.".format(message.author.mention, result[0], result[1], dm, dice)
 					else:
-						msg = "You rolled **{:d}** on {:s}.".format(result[0], dice)
+						msg = "{} rolled **{:d}** on {:s}.".format(message.author.mention, result[0], dice)
 
 					if config.emojis and bad_roll:
 						msg += " " + random.choice(config.bad_emojis)
